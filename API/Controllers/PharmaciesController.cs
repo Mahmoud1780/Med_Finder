@@ -21,4 +21,9 @@ public class PharmaciesController : ControllerBase
         var pharmacy = await _pharmacyService.GetByIdAsync(id);
         return Ok(pharmacy);
     }
+    [HttpGet]
+    public async Task<ActionResult<IEnumerable<PharmacyDto>>> GetAll()
+    {     var pharmacies = await _pharmacyService.GetAllAsync();
+        return Ok(pharmacies);
+    }
 }
