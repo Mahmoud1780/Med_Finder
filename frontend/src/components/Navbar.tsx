@@ -105,6 +105,9 @@ export function Navbar() {
                 <DropdownMenuItem disabled>{user.email}</DropdownMenuItem>
                 <DropdownMenuSeparator />
                 <DropdownMenuItem asChild>
+                  <Link href="/search">Search</Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild>
                   <Link href="/pharmacies">Pharmacies</Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem asChild>
