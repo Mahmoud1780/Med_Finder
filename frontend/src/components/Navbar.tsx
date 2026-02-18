@@ -18,6 +18,7 @@ import { useAuth } from "@/hooks/useAuth";
 
 const navLinks = [
   { href: "/search", label: "Search" },
+  { href: "/pharmacies", label: "Pharmacies" },
   { href: "/me/reservations", label: "My Reservations" },
 ];
 
@@ -103,6 +104,9 @@ export function Navbar() {
                 </DropdownMenuLabel>
                 <DropdownMenuItem disabled>{user.email}</DropdownMenuItem>
                 <DropdownMenuSeparator />
+                <DropdownMenuItem asChild>
+                  <Link href="/pharmacies">Pharmacies</Link>
+                </DropdownMenuItem>
                 <DropdownMenuItem asChild>
                   <Link href="/me/reservations">My Reservations</Link>
                 </DropdownMenuItem>
