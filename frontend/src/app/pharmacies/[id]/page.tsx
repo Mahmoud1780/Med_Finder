@@ -6,9 +6,10 @@ import { toast } from "sonner";
 import api from "@/lib/api";
 import { LoadingSkeleton } from "@/components/LoadingSkeleton";
 import { EmptyState } from "@/components/EmptyState";
+import { ReservationModal } from "@/components/ReservationModal";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import type { PharmacyDetails, PharmacyStock } from "@/types";
+import type { PharmacyDetails, PharmacyStock, MedicineSearchResult } from "@/types";
 
 export default function PharmacyDetailPage() {
   const params = useParams();
@@ -17,6 +18,7 @@ export default function PharmacyDetailPage() {
 
   const [pharmacy, setPharmacy] = useState<PharmacyDetails | null>(null);
   const [loading, setLoading] = useState(true);
+  const [selected, setSelected] = useState<MedicineSearchResult | null>(null);
 
   useEffect(() => {
     const fetchPharmacyDetails = async () => {
@@ -37,8 +39,23 @@ export default function PharmacyDetailPage() {
   }, [pharmacyId, router]);
 
   const handleReserve = (stock: PharmacyStock) => {
-    // Navigate to search page with pre-selected medicine
-    router.push(`/search?medicineId=${stock.medicineId}&pharmacyId=${pharmacyId}`);
+    if (!pharmacy) return;
+    
+    // Convert PharmacyStock to MedicineSearchResult format for ReservationModal
+    const medicineResult: MedicineSearchResult = {
+      medicineId: stock.medicineId,
+      medicineName: stock.medicineName,
+      category: "", // If available in stock, add it
+      activeIngredient: "", // If available in stock, add it
+      pharmacyId: pharmacy.id,
+      pharmacyName: pharmacy.name,
+      latitude: pharmacy.latitude,
+      longitude: pharmacy.longitude,
+      quantity: stock.quantity,
+      availability: stock.quantity > 0 ? "InStock" : "OutOfStock",
+    };
+    
+    setSelected(medicineResult);
   };
 
   if (loading) {
@@ -102,6 +119,13 @@ export default function PharmacyDetailPage() {
           <EmptyState title="No medicines in stock" description="This pharmacy currently has no medicines available." />
         )}
       </div>
+
+      <ReservationModal
+        open={!!selected}
+        onOpenChange={(open) => !open && setSelected(null)}
+        medicine={selected}
+        onSuccess={() => setSelected(null)}
+      />
     </div>
   );
 }
