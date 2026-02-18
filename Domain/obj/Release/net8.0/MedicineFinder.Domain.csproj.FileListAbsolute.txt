@@ -1,0 +1,11 @@
+D:\Ayman\Mahmoud\Domain\obj\Release\net8.0\MedicineFinder.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ayman\Mahmoud\Domain\obj\Release\net8.0\MedicineFinder.Domain.AssemblyInfoInputs.cache
+D:\Ayman\Mahmoud\Domain\obj\Release\net8.0\MedicineFinder.Domain.AssemblyInfo.cs
+D:\Ayman\Mahmoud\Domain\obj\Release\net8.0\MedicineFinder.Domain.csproj.CoreCompileInputs.cache
+D:\Ayman\Mahmoud\Domain\bin\Release\net8.0\MedicineFinder.Domain.deps.json
+D:\Ayman\Mahmoud\Domain\bin\Release\net8.0\MedicineFinder.Domain.dll
+D:\Ayman\Mahmoud\Domain\bin\Release\net8.0\MedicineFinder.Domain.pdb
+D:\Ayman\Mahmoud\Domain\obj\Release\net8.0\MedicineFinder.Domain.dll
+D:\Ayman\Mahmoud\Domain\obj\Release\net8.0\refint\MedicineFinder.Domain.dll
+D:\Ayman\Mahmoud\Domain\obj\Release\net8.0\MedicineFinder.Domain.pdb
+D:\Ayman\Mahmoud\Domain\obj\Release\net8.0\ref\MedicineFinder.Domain.dll

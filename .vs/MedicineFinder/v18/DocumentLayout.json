@@ -1,0 +1,409 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Downloads\\ITI\\Projects\\folder\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{952FB7FE-FEF0-4634-AE33-60339E37373D}|API\\MedicineFinder.API.csproj|c:\\users\\dell\\downloads\\iti\\projects\\folder\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{952FB7FE-FEF0-4634-AE33-60339E37373D}|API\\MedicineFinder.API.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE3C55EA-3DDC-405E-B250-027FBC6BBAD2}|Infrastructure\\MedicineFinder.Infrastructure.csproj|c:\\users\\dell\\downloads\\iti\\projects\\folder\\infrastructure\\seeders\\databaseseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE3C55EA-3DDC-405E-B250-027FBC6BBAD2}|Infrastructure\\MedicineFinder.Infrastructure.csproj|solutionrelative:infrastructure\\seeders\\databaseseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A39CBA8D-0B2C-4049-993B-221CF3D6581A}|Domain\\MedicineFinder.Domain.csproj|c:\\users\\dell\\downloads\\iti\\projects\\folder\\domain\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A39CBA8D-0B2C-4049-993B-221CF3D6581A}|Domain\\MedicineFinder.Domain.csproj|solutionrelative:domain\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE3C55EA-3DDC-405E-B250-027FBC6BBAD2}|Infrastructure\\MedicineFinder.Infrastructure.csproj|c:\\users\\dell\\downloads\\iti\\projects\\folder\\infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE3C55EA-3DDC-405E-B250-027FBC6BBAD2}|Infrastructure\\MedicineFinder.Infrastructure.csproj|solutionrelative:infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A539C70C-2923-4354-A1B3-E23C8E9BBEB9}|Tests\\MedicineFinder.Tests.csproj|c:\\users\\dell\\downloads\\iti\\projects\\folder\\tests\\controllers\\adminstockcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A539C70C-2923-4354-A1B3-E23C8E9BBEB9}|Tests\\MedicineFinder.Tests.csproj|solutionrelative:tests\\controllers\\adminstockcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{952FB7FE-FEF0-4634-AE33-60339E37373D}|API\\MedicineFinder.API.csproj|c:\\users\\dell\\downloads\\iti\\projects\\folder\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{952FB7FE-FEF0-4634-AE33-60339E37373D}|API\\MedicineFinder.API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE3C55EA-3DDC-405E-B250-027FBC6BBAD2}|Infrastructure\\MedicineFinder.Infrastructure.csproj|c:\\users\\dell\\downloads\\iti\\projects\\folder\\infrastructure\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE3C55EA-3DDC-405E-B250-027FBC6BBAD2}|Infrastructure\\MedicineFinder.Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE3C55EA-3DDC-405E-B250-027FBC6BBAD2}|Infrastructure\\MedicineFinder.Infrastructure.csproj|c:\\users\\dell\\downloads\\iti\\projects\\folder\\infrastructure\\medicinefinder.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BE3C55EA-3DDC-405E-B250-027FBC6BBAD2}|Infrastructure\\MedicineFinder.Infrastructure.csproj|solutionrelative:infrastructure\\medicinefinder.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{952FB7FE-FEF0-4634-AE33-60339E37373D}|API\\MedicineFinder.API.csproj|c:\\users\\dell\\downloads\\iti\\projects\\folder\\api\\hubs\\stockhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{952FB7FE-FEF0-4634-AE33-60339E37373D}|API\\MedicineFinder.API.csproj|solutionrelative:api\\hubs\\stockhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{952FB7FE-FEF0-4634-AE33-60339E37373D}|API\\MedicineFinder.API.csproj|c:\\users\\dell\\downloads\\iti\\projects\\folder\\api\\hubs\\stockhubnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{952FB7FE-FEF0-4634-AE33-60339E37373D}|API\\MedicineFinder.API.csproj|solutionrelative:api\\hubs\\stockhubnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{952FB7FE-FEF0-4634-AE33-60339E37373D}|API\\MedicineFinder.API.csproj|c:\\users\\dell\\downloads\\iti\\projects\\folder\\api\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{952FB7FE-FEF0-4634-AE33-60339E37373D}|API\\MedicineFinder.API.csproj|solutionrelative:api\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{952FB7FE-FEF0-4634-AE33-60339E37373D}|API\\MedicineFinder.API.csproj|c:\\users\\dell\\downloads\\iti\\projects\\folder\\api\\hubs\\reservationhubnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{952FB7FE-FEF0-4634-AE33-60339E37373D}|API\\MedicineFinder.API.csproj|solutionrelative:api\\hubs\\reservationhubnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{952FB7FE-FEF0-4634-AE33-60339E37373D}|API\\MedicineFinder.API.csproj|c:\\users\\dell\\downloads\\iti\\projects\\folder\\api\\medicinefinder.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{952FB7FE-FEF0-4634-AE33-60339E37373D}|API\\MedicineFinder.API.csproj|solutionrelative:api\\medicinefinder.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB144F7C-BA97-474F-A558-30A5ED2DDE53}|Application\\MedicineFinder.Application.csproj|c:\\users\\dell\\downloads\\iti\\projects\\folder\\application\\services\\medicineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB144F7C-BA97-474F-A558-30A5ED2DDE53}|Application\\MedicineFinder.Application.csproj|solutionrelative:application\\services\\medicineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB144F7C-BA97-474F-A558-30A5ED2DDE53}|Application\\MedicineFinder.Application.csproj|c:\\users\\dell\\downloads\\iti\\projects\\folder\\application\\services\\pharmacyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB144F7C-BA97-474F-A558-30A5ED2DDE53}|Application\\MedicineFinder.Application.csproj|solutionrelative:application\\services\\pharmacyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB144F7C-BA97-474F-A558-30A5ED2DDE53}|Application\\MedicineFinder.Application.csproj|c:\\users\\dell\\downloads\\iti\\projects\\folder\\application\\exceptions\\forbiddenexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB144F7C-BA97-474F-A558-30A5ED2DDE53}|Application\\MedicineFinder.Application.csproj|solutionrelative:application\\exceptions\\forbiddenexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB144F7C-BA97-474F-A558-30A5ED2DDE53}|Application\\MedicineFinder.Application.csproj|c:\\users\\dell\\downloads\\iti\\projects\\folder\\application\\medicinefinder.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EB144F7C-BA97-474F-A558-30A5ED2DDE53}|Application\\MedicineFinder.Application.csproj|solutionrelative:application\\medicinefinder.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB144F7C-BA97-474F-A558-30A5ED2DDE53}|Application\\MedicineFinder.Application.csproj|c:\\users\\dell\\downloads\\iti\\projects\\folder\\application\\services\\stockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB144F7C-BA97-474F-A558-30A5ED2DDE53}|Application\\MedicineFinder.Application.csproj|solutionrelative:application\\services\\stockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A539C70C-2923-4354-A1B3-E23C8E9BBEB9}|Tests\\MedicineFinder.Tests.csproj|c:\\users\\dell\\downloads\\iti\\projects\\folder\\tests\\services\\reservationservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A539C70C-2923-4354-A1B3-E23C8E9BBEB9}|Tests\\MedicineFinder.Tests.csproj|solutionrelative:tests\\services\\reservationservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A39CBA8D-0B2C-4049-993B-221CF3D6581A}|Domain\\MedicineFinder.Domain.csproj|c:\\users\\dell\\downloads\\iti\\projects\\folder\\domain\\entities\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A39CBA8D-0B2C-4049-993B-221CF3D6581A}|Domain\\MedicineFinder.Domain.csproj|solutionrelative:domain\\entities\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A39CBA8D-0B2C-4049-993B-221CF3D6581A}|Domain\\MedicineFinder.Domain.csproj|c:\\users\\dell\\downloads\\iti\\projects\\folder\\domain\\entities\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A39CBA8D-0B2C-4049-993B-221CF3D6581A}|Domain\\MedicineFinder.Domain.csproj|solutionrelative:domain\\entities\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A39CBA8D-0B2C-4049-993B-221CF3D6581A}|Domain\\MedicineFinder.Domain.csproj|c:\\users\\dell\\downloads\\iti\\projects\\folder\\domain\\entities\\pharmacy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A39CBA8D-0B2C-4049-993B-221CF3D6581A}|Domain\\MedicineFinder.Domain.csproj|solutionrelative:domain\\entities\\pharmacy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A39CBA8D-0B2C-4049-993B-221CF3D6581A}|Domain\\MedicineFinder.Domain.csproj|c:\\users\\dell\\downloads\\iti\\projects\\folder\\domain\\entities\\medicinetag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A39CBA8D-0B2C-4049-993B-221CF3D6581A}|Domain\\MedicineFinder.Domain.csproj|solutionrelative:domain\\entities\\medicinetag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A39CBA8D-0B2C-4049-993B-221CF3D6581A}|Domain\\MedicineFinder.Domain.csproj|c:\\users\\dell\\downloads\\iti\\projects\\folder\\domain\\entities\\medicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A39CBA8D-0B2C-4049-993B-221CF3D6581A}|Domain\\MedicineFinder.Domain.csproj|solutionrelative:domain\\entities\\medicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminStockControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\ITI\\Projects\\folder\\Tests\\Controllers\\AdminStockControllerTests.cs",
+              "RelativeDocumentMoniker": "Tests\\Controllers\\AdminStockControllerTests.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\ITI\\Projects\\folder\\Tests\\Controllers\\AdminStockControllerTests.cs",
+              "RelativeToolTip": "Tests\\Controllers\\AdminStockControllerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T23:06:09.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\ITI\\Projects\\folder\\Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\ITI\\Projects\\folder\\Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T22:45:29.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StockHub.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\ITI\\Projects\\folder\\API\\Hubs\\StockHub.cs",
+              "RelativeDocumentMoniker": "API\\Hubs\\StockHub.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\ITI\\Projects\\folder\\API\\Hubs\\StockHub.cs",
+              "RelativeToolTip": "API\\Hubs\\StockHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T22:42:55.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DatabaseSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\ITI\\Projects\\folder\\Infrastructure\\Seeders\\DatabaseSeeder.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Seeders\\DatabaseSeeder.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\ITI\\Projects\\folder\\Infrastructure\\Seeders\\DatabaseSeeder.cs*",
+              "RelativeToolTip": "Infrastructure\\Seeders\\DatabaseSeeder.cs*",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T22:22:52.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\ITI\\Projects\\folder\\API\\appsettings.json",
+              "RelativeDocumentMoniker": "API\\appsettings.json",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\ITI\\Projects\\folder\\API\\appsettings.json",
+              "RelativeToolTip": "API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-16T22:14:31.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\ITI\\Projects\\folder\\Domain\\Entities\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\ITI\\Projects\\folder\\Domain\\Entities\\ApplicationUser.cs",
+              "RelativeToolTip": "Domain\\Entities\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T22:29:42.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ReservationsController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\ITI\\Projects\\folder\\API\\Controllers\\ReservationsController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\ReservationsController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\ITI\\Projects\\folder\\API\\Controllers\\ReservationsController.cs",
+              "RelativeToolTip": "API\\Controllers\\ReservationsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T22:43:50.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\ITI\\Projects\\folder\\Infrastructure\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\ITI\\Projects\\folder\\Infrastructure\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAAB4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T22:44:44.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\ITI\\Projects\\folder\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\ITI\\Projects\\folder\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAAIUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T22:46:00.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StockHubNotifier.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\ITI\\Projects\\folder\\API\\Hubs\\StockHubNotifier.cs",
+              "RelativeDocumentMoniker": "API\\Hubs\\StockHubNotifier.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\ITI\\Projects\\folder\\API\\Hubs\\StockHubNotifier.cs",
+              "RelativeToolTip": "API\\Hubs\\StockHubNotifier.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAlwBAAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T22:35:25.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ReservationHubNotifier.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\ITI\\Projects\\folder\\API\\Hubs\\ReservationHubNotifier.cs",
+              "RelativeDocumentMoniker": "API\\Hubs\\ReservationHubNotifier.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\ITI\\Projects\\folder\\API\\Hubs\\ReservationHubNotifier.cs",
+              "RelativeToolTip": "API\\Hubs\\ReservationHubNotifier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T22:42:52.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MedicineFinder.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\ITI\\Projects\\folder\\Infrastructure\\MedicineFinder.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Infrastructure\\MedicineFinder.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\ITI\\Projects\\folder\\Infrastructure\\MedicineFinder.Infrastructure.csproj",
+              "RelativeToolTip": "Infrastructure\\MedicineFinder.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-16T22:22:30.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MedicineFinder.API.csproj",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\ITI\\Projects\\folder\\API\\MedicineFinder.API.csproj",
+              "RelativeDocumentMoniker": "API\\MedicineFinder.API.csproj",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\ITI\\Projects\\folder\\API\\MedicineFinder.API.csproj",
+              "RelativeToolTip": "API\\MedicineFinder.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-16T22:42:46.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ForbiddenException.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\ITI\\Projects\\folder\\Application\\Exceptions\\ForbiddenException.cs",
+              "RelativeDocumentMoniker": "Application\\Exceptions\\ForbiddenException.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\ITI\\Projects\\folder\\Application\\Exceptions\\ForbiddenException.cs",
+              "RelativeToolTip": "Application\\Exceptions\\ForbiddenException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T22:41:02.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ReservationServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\ITI\\Projects\\folder\\Tests\\Services\\ReservationServiceTests.cs",
+              "RelativeDocumentMoniker": "Tests\\Services\\ReservationServiceTests.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\ITI\\Projects\\folder\\Tests\\Services\\ReservationServiceTests.cs",
+              "RelativeToolTip": "Tests\\Services\\ReservationServiceTests.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAwCQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T22:34:32.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "StockService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\ITI\\Projects\\folder\\Application\\Services\\StockService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\StockService.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\ITI\\Projects\\folder\\Application\\Services\\StockService.cs",
+              "RelativeToolTip": "Application\\Services\\StockService.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T22:34:17.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MedicineService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\ITI\\Projects\\folder\\Application\\Services\\MedicineService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\MedicineService.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\ITI\\Projects\\folder\\Application\\Services\\MedicineService.cs",
+              "RelativeToolTip": "Application\\Services\\MedicineService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T22:33:58.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PharmacyService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\ITI\\Projects\\folder\\Application\\Services\\PharmacyService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\PharmacyService.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\ITI\\Projects\\folder\\Application\\Services\\PharmacyService.cs",
+              "RelativeToolTip": "Application\\Services\\PharmacyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T22:33:55.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MedicineFinder.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\ITI\\Projects\\folder\\Application\\MedicineFinder.Application.csproj",
+              "RelativeDocumentMoniker": "Application\\MedicineFinder.Application.csproj",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\ITI\\Projects\\folder\\Application\\MedicineFinder.Application.csproj",
+              "RelativeToolTip": "Application\\MedicineFinder.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-16T22:33:48.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Stock.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\ITI\\Projects\\folder\\Domain\\Entities\\Stock.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Stock.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\ITI\\Projects\\folder\\Domain\\Entities\\Stock.cs",
+              "RelativeToolTip": "Domain\\Entities\\Stock.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwAcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T22:33:01.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\ITI\\Projects\\folder\\Domain\\Entities\\Reservation.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Reservation.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\ITI\\Projects\\folder\\Domain\\Entities\\Reservation.cs",
+              "RelativeToolTip": "Domain\\Entities\\Reservation.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T22:32:04.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Pharmacy.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\ITI\\Projects\\folder\\Domain\\Entities\\Pharmacy.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Pharmacy.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\ITI\\Projects\\folder\\Domain\\Entities\\Pharmacy.cs",
+              "RelativeToolTip": "Domain\\Entities\\Pharmacy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T22:31:28.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MedicineTag.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\ITI\\Projects\\folder\\Domain\\Entities\\MedicineTag.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\MedicineTag.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\ITI\\Projects\\folder\\Domain\\Entities\\MedicineTag.cs",
+              "RelativeToolTip": "Domain\\Entities\\MedicineTag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T22:30:27.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Medicine.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\ITI\\Projects\\folder\\Domain\\Entities\\Medicine.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Medicine.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\ITI\\Projects\\folder\\Domain\\Entities\\Medicine.cs",
+              "RelativeToolTip": "Domain\\Entities\\Medicine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T22:29:53.032Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

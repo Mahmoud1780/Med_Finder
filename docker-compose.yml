@@ -1,0 +1,50 @@
+version: "3.9"
+
+services:
+  db:
+    build: ./db
+    container_name: medicinefinder-db
+    environment:
+      SA_PASSWORD: "Mah@12345"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
+    volumes:
+      - mf_sql:/var/opt/mssql
+
+  backend:
+    build: ./API
+    container_name: medicinefinder-api
+    depends_on:
+      - db
+    environment:
+      ASPNETCORE_URLS: "http://+:5018"
+      ConnectionStrings__DefaultConnection: "Server=db;Database=MedicineFinderDb;User Id=sa;Password=Mah@12345;Encrypt=False;TrustServerCertificate=True;MultipleActiveResultSets=true;"
+      Jwt__Issuer: "MedicineFinder"
+      Jwt__Audience: "MedicineFinderUsers"
+      Jwt__SecretKey: "ReplaceThisWithA32CharSecretKey!"
+      Jwt__ExpiryMinutes: "60"
+      Cors__Origins__0: "http://localhost:3000"
+      Cors__Origins__1: "https://localhost:3000"
+    ports:
+      - "5018:5018"
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        NEXT_PUBLIC_SIGNALR_URL: "http://localhost:5018"
+        NEXT_PUBLIC_API_BASE_URL: "/api/proxy"
+    container_name: medicinefinder-frontend
+    depends_on:
+      - backend
+    environment:
+      API_BASE_URL: "http://backend:5018"
+      JWT_SECRET: "ReplaceThisWithA32CharSecretKey!"
+      NEXT_PUBLIC_SIGNALR_URL: "http://localhost:5018"
+      NEXT_PUBLIC_API_BASE_URL: "/api/proxy"
+    ports:
+      - "3000:3000"
+
+volumes:
+  mf_sql:

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "3RlL8B8wdsYXlHO/Hjr+3Dva+rBMb3LQZwMROlCHs/w=",
+  "Source": "MedicineFinder.API",
+  "BasePath": "_content/MedicineFinder.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
