@@ -9,6 +9,7 @@ import { EmptyState } from "@/components/EmptyState";
 import { ReservationModal } from "@/components/ReservationModal";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import { useSignalR } from "@/hooks/useSignalR";
 import type { PharmacyDetails, PharmacyStock, MedicineSearchResult } from "@/types";
 
 export default function PharmacyDetailPage() {
@@ -19,6 +20,7 @@ export default function PharmacyDetailPage() {
   const [pharmacy, setPharmacy] = useState<PharmacyDetails | null>(null);
   const [loading, setLoading] = useState(true);
   const [selected, setSelected] = useState<MedicineSearchResult | null>(null);
+  const [highlightKey, setHighlightKey] = useState<string | null>(null);
 
   useEffect(() => {
     const fetchPharmacyDetails = async () => {
@@ -37,6 +39,27 @@ export default function PharmacyDetailPage() {
       void fetchPharmacyDetails();
     }
   }, [pharmacyId, router]);
+
+  useSignalR((incomingPharmacyId, medicineId, quantity) => {
+    // Only update if the stock change is for this pharmacy
+    if (incomingPharmacyId === pharmacyId && pharmacy) {
+      setPharmacy((prev) => {
+        if (!prev) return prev;
+        
+        return {
+          ...prev,
+          stocks: prev.stocks.map((stock) =>
+            stock.medicineId === medicineId
+              ? { ...stock, quantity }
+              : stock
+          ),
+        };
+      });
+      
+      setHighlightKey(`${medicineId}`);
+      setTimeout(() => setHighlightKey(null), 1200);
+    }
+  });
 
   const handleReserve = (stock: PharmacyStock) => {
     if (!pharmacy) return;
@@ -91,7 +114,9 @@ export default function PharmacyDetailPage() {
             {pharmacy.stocks.map((stock) => (
               <Card
                 key={stock.medicineId}
-                className="flex flex-col justify-between rounded-2xl border border-border/60 bg-card/70 p-5 transition-all hover:border-border hover:bg-card"
+                className={`flex flex-col justify-between rounded-2xl border border-border/60 bg-card/70 p-5 transition-all hover:border-border hover:bg-card ${
+                  highlightKey === stock.medicineId ? 'ring-2 ring-green-500 animate-pulse' : ''
+                }`}
               >
                 <div className="space-y-2">
                   <h3 className="text-base font-semibold">{stock.medicineName}</h3>
